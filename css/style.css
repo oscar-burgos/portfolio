@@ -1,22 +1,19 @@
-/*.preview img {
-  width: 228px;
-  margin-top: 50px;
-}*/
-
-/*.test {
-    width: 228px;
-    height: 331px;
-    position: absolute;
-    margin-top: 50px;
-    color: #fff;
-    display: none;
+.navbar {
+  background-color: transparent;
+  border: none;
 }
 
-a:hover .test{
-    display: block;
-    background-color: #000;
-}*/
+.navbar-brand {
+  margin: 0px;
+}
 
+.white-logo {
+  height: 50px;
+}
+
+nav ul {
+  margin: 0px auto;
+}
 
 .thumbnail {
   width: 228px;
@@ -47,4 +44,56 @@ h3 {
 a:hover .test {
   display: block;
   background-color: rgba(0, 0, 0, .8);
+}
+
+header {
+  height: 600px;
+  background-image: url('../img/gd-desk.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Category Buttons Section */
+
+.link-button {
+  padding:0px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.link-button>h2 {
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 4px #333;
+  margin: 0px;
+  padding-top: 33px;
+}
+
+
+a:hover h2 {
+  background-color: rgba(255, 255, 255, .7);
+  transition: .5s ease;
+  border-radius: 10px;
+  color: #000;
+  text-shadow: 1px 1px 4px #fff;
+}
+
+#gd-button {
+  background-image: url('../img/color.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#web-button {
+  background-image: url('../img/code.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+#photo-button {
+  background-image: url('../img/camera.jpeg');
+  background-position: center;
+  background-size: cover;
 }
