@@ -1,7 +1,4 @@
-.navbar {
-  background-color: transparent;
-  border: none;
-}
+/* Navbar Section */
 
 .navbar-brand {
   margin: 0px;
@@ -11,47 +8,37 @@
   height: 50px;
 }
 
-nav ul {
-  margin: 0px auto;
+.nav {
+  margin-top: 12px;
 }
 
-.thumbnail {
-  width: 228px;
-  margin-top: 50px;
-  color: #fff;
-  padding: 0px;
+.navbar {
+  background-color: rgba(0, 0, 0, .3);
   border: none;
+  height: 75px;
 }
 
-.thumbnail img {
-  border-radius: 5px;
-}
+/* Hero Section */
 
-h3 {
-  margin: 0px;
-  padding: 10px;
-}
-
-.test {
-    width: 228px;
-    height: 331px;
-    position: absolute;
-    color: #fff;
-    display: none;
-    border-radius: 5px;
-}
-
-a:hover .test {
-  display: block;
-  background-color: rgba(0, 0, 0, .8);
-}
-
-header {
+.hero {
   height: 600px;
   background-image: url('../img/gd-desk.jpg');
   background-position: bottom;
   background-size: cover;
-  background-attachment: fixed;
+}
+
+.logo-bkgd {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, .7);
+  transform: translateY(112%);
+  margin: 0px;
+  border-radius: 15px;
+}
+
+.color-logo {
+  width: 350px;
+  padding: 20px;
 }
 
 /* Category Buttons Section */
@@ -60,6 +47,8 @@ header {
   padding:0px;
   border-radius: 10px;
   margin-top: 50px;
+  background-position: center;
+  background-size: cover;
 }
 
 .link-button>h2 {
@@ -74,26 +63,20 @@ header {
 
 a:hover h2 {
   background-color: rgba(255, 255, 255, .7);
-  transition: .5s ease;
+  transition: .2s ease;
   border-radius: 10px;
   color: #000;
-  text-shadow: 1px 1px 4px #fff;
+  text-shadow: none;
 }
 
 #gd-button {
   background-image: url('../img/color.jpg');
-  background-position: center;
-  background-size: cover;
 }
 
 #web-button {
   background-image: url('../img/code.jpeg');
-  background-position: center;
-  background-size: cover;
 }
 
 #photo-button {
   background-image: url('../img/camera.jpeg');
-  background-position: center;
-  background-size: cover;
 }
