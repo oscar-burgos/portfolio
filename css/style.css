@@ -1,6 +1,6 @@
-header {
-  margin: 0px;
-}
+/* gray hex color #929497 */
+
+/* UNIVERSALS */
 
 /* Navbar Section */
 
@@ -98,4 +98,12 @@ a:hover h2 {
 
 #photo-button {
   background-image: url('../img/camera.jpeg');
+}
+
+/* Bio Section */
+
+.bio-bkgd {
+  height: 400px;
+  background-color: #929497;
+  margin-top: 50px;
 }
