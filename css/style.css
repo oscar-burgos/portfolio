@@ -1,3 +1,7 @@
+/* gray hex color #929497 */
+
+/* UNIVERSALS */
+
 /* Navbar Section */
 
 .navbar-brand {
@@ -16,6 +20,21 @@
   background-color: rgba(0, 0, 0, .3);
   border: none;
   height: 75px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #000;
+  background-color: transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 /* Hero Section */
@@ -79,4 +98,12 @@ a:hover h2 {
 
 #photo-button {
   background-image: url('../img/camera.jpeg');
+}
+
+/* Bio Section */
+
+.bio-bkgd {
+  height: 400px;
+  background-color: #929497;
+  margin-top: 50px;
 }
