@@ -1,3 +1,7 @@
+header {
+  margin: 0px;
+}
+
 /* Navbar Section */
 
 .navbar-brand {
@@ -16,6 +20,21 @@
   background-color: rgba(0, 0, 0, .3);
   border: none;
   height: 75px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #000;
+  background-color: transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 /* Hero Section */
