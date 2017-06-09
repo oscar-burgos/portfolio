@@ -6,35 +6,35 @@
 
 .navbar-brand {
   margin: 0px;
+  padding: 3px 15px;
 }
 
 .white-logo {
-  height: 50px;
-}
-
-.nav {
-  margin-top: 12px;
+  height: 45px;
 }
 
 .navbar {
   background-color: rgba(0, 0, 0, .3);
   border: none;
-  height: 75px;
 }
+
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #000;
+  transition: .5s ease;
+  background-color: rgba(200, 200, 200, .3);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #000;
-  background-color: transparent;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  background-color: rgba(255, 255, 255, .5);
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 /* Hero Section */
