@@ -2,6 +2,17 @@
   background-image: url('../img/color.jpg');
   background-position: center;
   height: 300px;
+  filter: none;
+}
+
+.hero h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 4em;
+  text-shadow: 1px 1px 4px #333;
+  letter-spacing: 2px;
+  padding-top: 120px;
 }
 
 .thumbnail {
@@ -21,8 +32,15 @@ h4, p {
   padding: 15px;
 }
 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
 p {
   color: #aaa;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
 }
 
 .preview {

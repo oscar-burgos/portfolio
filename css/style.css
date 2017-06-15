@@ -1,6 +1,10 @@
 /* gray hex color #929497 */
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,900');
+
 /* UNIVERSALS */
+
 
 /* Navbar Section */
 
@@ -70,8 +74,11 @@
   height: 200px;
   width: 100%;
   margin: 0px;
-  padding-top: 33px;
+  padding-top: 80px;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
   text-shadow: 1px 1px 4px #333;
 }
 
