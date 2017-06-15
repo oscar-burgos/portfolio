@@ -1,3 +1,9 @@
+.hero {
+  background-image: url('../img/color.jpg');
+  background-position: center;
+  height: 300px;
+}
+
 .thumbnail {
   width: 228px;
   margin-top: 50px;
@@ -10,12 +16,16 @@
   border-radius: 5px;
 }
 
-h3 {
+h4, p {
   margin: 0px;
-  padding: 10px;
+  padding: 15px;
 }
 
-.test {
+p {
+  color: #aaa;
+}
+
+.preview {
     width: 228px;
     height: 331px;
     position: absolute;
@@ -24,7 +34,7 @@ h3 {
     border-radius: 5px;
 }
 
-a:hover .test {
+a:hover .preview {
   display: block;
   background-color: rgba(0, 0, 0, .8);
 }
