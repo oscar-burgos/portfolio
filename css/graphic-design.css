@@ -1,3 +1,20 @@
+.hero {
+  background-image: url('../img/color.jpg');
+  background-position: center;
+  height: 300px;
+  filter: none;
+}
+
+.hero h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 4em;
+  text-shadow: 1px 1px 4px #333;
+  letter-spacing: 2px;
+  padding-top: 120px;
+}
+
 .thumbnail {
   width: 228px;
   margin-top: 50px;
@@ -10,12 +27,23 @@
   border-radius: 5px;
 }
 
-h3 {
+h4, p {
   margin: 0px;
-  padding: 10px;
+  padding: 15px;
 }
 
-.test {
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #aaa;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+}
+
+.preview {
     width: 228px;
     height: 331px;
     position: absolute;
@@ -24,7 +52,7 @@ h3 {
     border-radius: 5px;
 }
 
-a:hover .test {
+a:hover .preview {
   display: block;
   background-color: rgba(0, 0, 0, .8);
 }
