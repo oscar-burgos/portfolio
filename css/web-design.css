@@ -1,14 +1,6 @@
-.preview img {
-  width: 100%;
-  margin-top: 10px;
-}
-
-/* Hero Section */
-
 .hero {
-  background-image: url('../img/camera.jpeg');
-  background-position: center;
-  background-size: cover;
+  background-image: url('../img/code.jpeg');
+  background-position: top;
   height: 300px;
   filter: none;
 }
