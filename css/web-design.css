@@ -1,0 +1,16 @@
+.hero {
+  background-image: url('../img/code.jpeg');
+  background-position: top;
+  height: 300px;
+  filter: none;
+}
+
+.hero h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 4em;
+  text-shadow: 1px 1px 4px #333;
+  letter-spacing: 2px;
+  padding-top: 120px;
+}
