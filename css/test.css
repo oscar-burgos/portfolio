@@ -1,68 +1,48 @@
-/*.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.flex-item img {
-  height: 300px;
-}*/
-
 .thumbnail {
   width: 228px;
+  height: 331px;
   margin-top: 50px;
   color: #fff;
   padding: 0px;
   border: none;
 }
 
-.preview {
+.thumbnail img {
   border-radius: 5px;
-  box-shadow: 3px 3px 8px #333;
-
 }
 
-h4, p {
-  margin: 0px;
-  padding: 15px;
+.portrait img {
+  height: 331px;
 }
 
-h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+.silohuette img {
+  height: 331px;
 }
 
-p {
-  color: #aaa;
-  font-family: 'Raleway' sans-serif;
-  font-weight: 300;
-}
-
-.description {
+.portrait {
     width: 228px;
     height: 331px;
     position: absolute;
     color: #fff;
     display: none;
     border-radius: 5px;
-    box-shadow: 3px 3px 8px #333;
 }
 
-a:hover .description {
+a:hover .portrait {
   display: block;
   background-color: #000;
   transform: rotateY(90deg);
-  animation: description .5s forwards;
+  animation: portrait .5s forwards;
   animation-direction: normal;
 }
 
-a:hover .preview {
+a:hover .silohuette {
   transform: rotateY(90deg);
-  animation: preview .5s 1;
+  animation: silohuette .5s 1;
   animation-direction: alternate;
 }
 
-@keyframes preview {
+@keyframes silohuette {
   0% {
     transform: rotateY(0);
   }
@@ -71,7 +51,7 @@ a:hover .preview {
   }
 }
 
-@keyframes description {
+@keyframes portrait {
   50% {
     transform: rotateY(90deg);
   }

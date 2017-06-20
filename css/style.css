@@ -1,10 +1,19 @@
 /* gray hex color #929497 */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,900|Maven+Pro:700|Roboto+Condensed:700');
 
 /* UNIVERSALS */
+.white-text {
+  color: #fff;
+}
 
+.header-text {
+  font-family: 'roboto condensed', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
 
 /* Navbar Section */
 
@@ -43,74 +52,226 @@
 /* Hero Section */
 
 .hero {
-  height: 600px;
-  background-image: url('../img/gd-desk.jpg');
+  height: 1080px;
+  background-image: url('../img/pattern1.jpg');
   background-position: bottom;
   background-size: cover;
-  filter: grayscale(50%);
+  background-attachment: fixed;
+}
+
+.hero-text {
+  margin: 0px;
+  transform: translateY(50%);
+  padding: 11px 0px 15px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.hero-text p {
+  padding: 0px;
 }
 
 .color-logo {
-  width: 350px;
+  width: 450px;
   padding: 20px;
-  transform: translateY(100%);
-  filter: drop-shadow(2px 2px 2px #555);
+  transform: translateY(20%);
 }
 
-/* Category Buttons Section */
-
-.category {
-  background-color: #000;
-  padding: 50px 0px:
+.icons {
+  margin-top: 50px;
+  border-radius: 15px;
+  transform: translateY(20%);
 }
 
-.link-button {
-  padding:0px;
+.icons h1 {
+  margin: 25px 0px 25px;
+}
+
+@media only screen and (max-width : 768px) {
+    /* your mobile css, change this as you please */
+    .icons h1 {
+          padding: 50px 0px 50px;
+          background-color: rgba(255, 255, 255, .3);
+          border-radius: 15px;
+    }
+}
+
+a:hover .col-sm-4 {
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 15px;
+}
+
+
+
+/* Hero Section */
+
+#graphic-design {
+  background-image: url('../img/pattern2.jpg');
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
 }
 
-.link-button>h2 {
-  height: 200px;
-  width: 100%;
-  margin: 0px;
-  padding-top: 80px;
+#graphic-design h1 {
+  padding-top: 100px;
+}
+
+/* Content Grid Section */
+
+.thumbnail {
+  width: 228px;
+  height: 331px;
+  margin-top: 50px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 4px #333;
+  padding: 0px;
+  border: none;
 }
 
-a:hover h2 {
-  color: #000;
-  background-color: rgba(255, 255, 255, .8);
-  text-shadow: none;
-  transition: background-color .9s ease;
+.thumbnail img {
+  border-radius: 5px;
 }
 
-#gd-button {
-  background-image: url('../img/color.jpg');
-  border: 2px solid #fff;
+h4, p {
+  margin: 0px;
+  padding: 15px;
 }
 
-#web-button {
-  background-image: url('../img/code.jpeg');
-  border: 2px solid #fff;
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
-#photo-button {
-  background-image: url('../img/camera.jpeg');
-  border: 2px solid #fff;
+p {
+  color: #aaa;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+}
+
+.description {
+    width: 228px;
+    height: 331px;
+    position: absolute;
+    color: #fff;
+    display: none;
+    border-radius: 5px;
+}
+
+a:hover .description {
+  display: block;
+  background-color: #000;
+  transform: rotateY(90deg);
+  animation: description .5s forwards;
+  animation-direction: normal;
+}
+
+a:hover .preview {
+  transform: rotateY(90deg);
+  animation: preview .5s 1;
+  animation-direction: alternate;
+}
+
+@keyframes preview {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+}
+
+@keyframes description {
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+/* Web Design Section */
+
+#web-design {
+  background-image: url('../img/pattern3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+#web-design h1 {
+  padding-top: 100px;
+}
+
+/* Photography */
+
+#photgraphy {
+  background-image: url('../img/pattern4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+#photgraphy h1 {
+  padding-top: 100px;
+}
+
+.carousel {
+  margin: 25px 0px;
 }
 
 /* Bio Section */
 
+
+a:hover .portrait {
+  display: block;
+  transform: rotateY(90deg);
+  animation: portrait .5s forwards;
+  animation-direction: normal;
+}
+
+a:hover .outline {
+  transform: rotateY(90deg);
+  animation: outline .5s 1;
+  animation-direction: alternate;
+}
+
+@keyframes outline {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+}
+
+@keyframes portrait {
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+#contact {
+  background-image: url('../img/pattern5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+#contact h1 {
+  padding-top: 100px;
+}
+
 .bio-bkgd {
   height: 400px;
-  background-color: #000;
+  margin-top: 25px;
 }
 
 .bio p {
-  color: #fff;
+  color: #000;
 }
