@@ -1,11 +1,12 @@
-.hero {
-  background-image: url('../img/code.jpeg');
-  background-position: top;
+#web-design {
+  background-image: url('../img/pattern3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   height: 300px;
-  filter: none;
 }
 
-.hero h1 {
+#web-design h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #fff;
