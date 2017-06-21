@@ -55,8 +55,18 @@
   height: 1080px;
   background-image: url('../img/pattern1.jpg');
   background-position: bottom;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
+}
+
+@media only screen and (max-width : 768px) {
+    .hero {
+      height: 1080px;
+      background-image: url('../img/pattern1_small.jpg');
+      background-position: bottom;
+      background-size: cover;
+      background-attachment: fixed;
+    }
 }
 
 .hero-text {
