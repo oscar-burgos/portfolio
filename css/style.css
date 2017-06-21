@@ -64,7 +64,7 @@
       height: 1080px;
       background-image: url('../img/pattern1_small.jpg');
       background-position: center;
-      background-size: contain;
+      background-size: cover;
       background-attachment: fixed;
     }
 }
