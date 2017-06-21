@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll">
   <header class="container-fluid" id="home">
     <!-- Navbar Begins -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -42,7 +42,7 @@
   </header>
 
   <!-- Hero Begins -->
-  <div class="container-fluid center-block hero">
+  <div class="container-fluid center-block hero  img-responsive">
     <img src="img/logo.png" alt="logo" class="color-logo img-responsive center-block">
     <div class="hero-text">
       <h1 class=" header-text white-text text-center text-uppercase">my work</h1>
@@ -74,7 +74,7 @@
   <!-- Hero Ends -->
 
   <!-- Hero Begins -->
-  <div class="container-fluid" id="graphic-design">
+  <div class="container-fluid img-responsive" id="graphic-design">
     <h1 class="text-center text-uppercase header-text">Graphic Design</h1>
   </div>
   <!-- Hero Ends -->
@@ -196,7 +196,7 @@
 
   <!-- Web Design Section Begins -->
   <!-- Hero Begins -->
-  <div class="container-fluid" id="web-design">
+  <div class="container-fluid img-responsive" id="web-design">
     <h1 class="text-center text-uppercase header-text">Web Design</h1>
   </div>
   <!-- Hero Ends -->
@@ -236,7 +236,7 @@
 
   <!-- Photography Section Begins -->
   <!-- Hero Begins -->
-  <div class="container-fluid" id="photgraphy">
+  <div class="container-fluid img-responsive" id="photgraphy">
     <h1 class="text-center text-uppercase header-text">Photography</h1>
   </div>
   <!-- Hero Ends -->
@@ -285,27 +285,46 @@
   </div>
   <!-- Photography Section Ends -->
 
-  <!-- About Section Begins -->
-  <!-- Hero Begins -->
-  <div class="container-fluid" id="contact">
+  <!-- ABOUT/CONTACT SECTION BEGINS -->
+  <!-- Contact Header Begins -->
+  <div class="container-fluid img-responsive" id="contact">
     <h1 class="text-center text-uppercase header-text">Contact</h1>
   </div>
-  <!-- Hero Ends -->
+  <!-- Contact Header Ends -->
   <div class="container-fluid bio-bkgd">
     <div class="row">
-      <div class="col-sm-2 col-sm-offset-1">
-        <img class="outline img-responsive" src="img/silohuette.jpg" alt="corvette">
+      <div class="col-sm-2 col-sm-offset-1"> <!-- Bio Section Begins -->
+        <img class="outline img-responsive hidden-xs" src="img/silohuette.jpg" alt="corvette">
       </div>
-      <div class="col-sm-5 bio">
+      <div class="col-sm-3 bio">
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, porro, libero provident temporibus esse sapiente aut animi ullam quam totam nemo aliquam eaque sed itaque illo eos numquam reprehenderit dolorum.</p>
-      </div>
-      <div class="col-sm-3 col-sm-offset-1">
-
+      </div> <!-- Bio Section Ends -->
+      <div class="col-sm-4 col-sm-offset-1">
+        <!-- Contact Form Begins -->
+				<form action="" class="contact-form center-block">
+					<div class="form-group">
+				    <label for="name">Name</label>
+				    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email</label>
+				    <input type="text" class="form-control" id="email" placeholder="Your Email" required>
+				  </div>
+					<div class="form-group">
+				    <label for="subject">Subject</label>
+				    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+				  </div>
+					<label for="message">Message</label>
+					<textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<!-- CONTACT SECTION ENDS -->
       </div>
     </div>
   </div>
   <!-- About Section Ends -->
+
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
