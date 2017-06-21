@@ -55,7 +55,7 @@
   height: 1080px;
   background-image: url('../img/pattern1.jpg');
   background-position: bottom;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
 }
 
@@ -105,7 +105,7 @@ a:hover .col-sm-4 {
 #graphic-design {
   background-image: url('../img/pattern2.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   height: 300px;
 }
@@ -191,7 +191,7 @@ a:hover .preview {
 #web-design {
   background-image: url('../img/pattern3.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   height: 300px;
 }
@@ -205,7 +205,7 @@ a:hover .preview {
 #photgraphy {
   background-image: url('../img/pattern4.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   height: 300px;
 }
@@ -255,7 +255,7 @@ a:hover .outline {
 #contact {
   background-image: url('../img/pattern5.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   height: 300px;
 }
