@@ -428,7 +428,7 @@ a:hover .card-name {
 }
 
 .message-container {
-  margin: 100px 0px 25px;
+  margin: 50px 0px 25px;
   padding: 0px;
 }
 
@@ -451,4 +451,73 @@ a:hover .card-name {
   font-size: 85px;
   color: #e1a223;
   float: right;
+}
+
+/* Test */
+
+.silohuette {
+  height: 100%;
+  filter: grayscale(100%);
+  position: absolute;
+}
+
+.profile {
+  height: 100%;
+  position: absolute;
+  color: #fff;
+  display: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover .profile {
+  display: block;
+  background-color: #3d7ed0;
+  transform: rotateY(90deg);
+  animation: profile .5s forwards;
+  animation-direction: normal;
+}
+
+a:hover .silohuette {
+  transform: rotateY(90deg);
+  animation: silohuette .5s 1;
+  animation-direction: forwards;
+}
+
+a:hover .card-name {
+  display: block;
+  text-decoration: none;
+  transform: rotateY(90deg);
+  animation: card-name .5s forwards;
+  animation-direction: normal;
+}
+
+@keyframes silohuette {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+}
+
+@keyframes profile {
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+.silohuette-animation {
+  width: 228px;
+  margin: 0px;
+  height: 300px;
+  color: #fff;
+  padding: 0px;
+  border: none;
 }
