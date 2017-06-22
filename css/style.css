@@ -271,6 +271,10 @@ a:hover .black-card {
   background-color: #f8512f;
 }
 
+.jl-name {
+  background: linear-gradient(to bottom, #797300, #404041);
+}
+
 a:hover .card-name {
   display: block;
   text-decoration: none;
@@ -416,12 +420,35 @@ a:hover .card-name {
 
 .contact-form button {
   margin-top: 15px;
+  border: 1px solid #e1a223;
 }
 
 .contact-text {
   background-color: #999;
 }
 
-.arrow {
+.message-container {
+  margin: 100px 0px 25px;
+  padding: 0px;
+}
+
+.contact-message {
   background-color: #e1a223;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.contact-message>h2 {
+  padding: 0px;
+  margin: 20px 0px 20px;
+}
+
+.arrow {
+  font-size: 30px;
+}
+
+.glyphicon {
+  font-size: 85px;
+  color: #e1a223;
+  float: right;
 }
