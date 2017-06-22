@@ -62,7 +62,7 @@
 @media only screen and (max-width : 768px) {
     .hero {
       height: 1080px;
-      background-image: url('../img/pattern1_small.jpg');
+      background-image: url('../img/gradient1.jpg');
       background-position: center;
       background-size: contain;
       background-attachment: fixed;
@@ -229,6 +229,10 @@ a:hover .preview {
     border-radius: 5px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 a:hover .color-card {
   display: block;
   background-color: #3d7ed0;
@@ -334,13 +338,13 @@ a:hover .card-name {
 }
 
 .btn-warning {
-  background-color: #f8512f;
-  border-color: #f8512f;
+  background-color: #b53957;
+  border-color: #b53957;
 }
 
 .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
-  background-color: #d34326;
-  border-color: #d34326;
+  background-color: #8e1935;
+  border-color: #8e1935;
 }
 
 /* Bio Section */
@@ -371,6 +375,8 @@ a:hover .card-name {
   padding: 0px;
 }
 
+/* Contact Section */
+
 .contact-form {
   border: 2px solid orange;
   margin-bottom: 25px;
@@ -389,4 +395,8 @@ a:hover .card-name {
 
 .contact-text {
   background-color: #999;
+}
+
+.arrow {
+  background-color: orange;
 }
