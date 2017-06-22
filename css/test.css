@@ -11,15 +11,11 @@
   border-radius: 5px;
 }
 
-.portrait img {
-  height: 331px;
+.black-card {
+  filter: grayscale(100%);
 }
 
-.silohuette img {
-  height: 331px;
-}
-
-.portrait {
+.color-card {
     width: 228px;
     height: 331px;
     position: absolute;
@@ -28,21 +24,50 @@
     border-radius: 5px;
 }
 
-a:hover .portrait {
+a:hover {
+  text-decoration: none;
+}
+
+a:hover .color-card {
   display: block;
-  background-color: #000;
+  background-color: #3d7ed0;
   transform: rotateY(90deg);
-  animation: portrait .5s forwards;
+  animation: color-card .5s forwards;
   animation-direction: normal;
 }
 
-a:hover .silohuette {
+a:hover .black-card {
   transform: rotateY(90deg);
-  animation: silohuette .5s 1;
-  animation-direction: alternate;
+  animation: black-card .5s 1;
+  animation-direction: forwards;
 }
 
-@keyframes silohuette {
+.card-name {
+  display: none;
+  text-decoration: none;
+}
+
+.petstore-name {
+  background: linear-gradient(to bottom right, #f5854d, #f06ca7);
+}
+
+.restaurante-name {
+  background-color: #f8512f;
+}
+
+.jl-name {
+  background: linear-gradient(to bottom, #797300, #404041);
+}
+
+a:hover .card-name {
+  display: block;
+  text-decoration: none;
+  transform: rotateY(90deg);
+  animation: card-name .5s forwards;
+  animation-direction: normal;
+}
+
+@keyframes black-card {
   0% {
     transform: rotateY(0);
   }
@@ -51,7 +76,16 @@ a:hover .silohuette {
   }
 }
 
-@keyframes portrait {
+@keyframes color-card {
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+@keyframes card-name {
   50% {
     transform: rotateY(90deg);
   }
