@@ -62,10 +62,7 @@
 @media only screen and (max-width : 768px) {
     .hero {
       height: 1080px;
-      background-image: url('../img/gradient1.jpg');
-      background-position: center;
-      background-size: contain;
-      background-attachment: fixed;
+      background: linear-gradient(to bottom right, #8dd3a7, #268ba7);
     }
 }
 
