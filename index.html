@@ -44,10 +44,6 @@
   <!-- HERO BEGINS -->
   <div class="container-fluid center-block hero  img-responsive">
     <img src="img/logo.png" alt="logo" class="color-logo img-responsive center-block">
-    <div class="hero-text">
-      <h1 class=" header-text white-text text-center text-uppercase">my work</h1>
-      <p class="white-text text-center">Keep scrolling down to browse all of my work or click below</p>
-    </div>
     <div class="container">
       <div class="row icons">
         <a href="#graphic-design">
@@ -70,6 +66,10 @@
         </a>
       </div>
     </div>
+    <div class="hero-text">
+      <h1 class=" header-text white-text text-center text-uppercase">my work</h1>
+      <p class="white-text text-center">Keep scrolling down to browse all of my work or click below</p>
+    </div>
   </div>
   <!-- HERO ENDS -->
 
@@ -78,11 +78,12 @@
   <!-- Graphic Design Header Begins -->
   <div class="container-fluid img-responsive" id="graphic-design">
     <h1 class="text-center text-uppercase header-text">Graphic Design</h1>
+    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#gd-collapse">Click to Expand Section</button>
   </div>
   <!-- Graphic Design Header Ends -->
 
   <!-- Content Grid Begins -->
-  <div class="container">
+  <div class="container collapse" id="gd-collapse">
     <div class="row content">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <a href="img/gd/prius.jpg" class="thumbnail center-block img-responsive">
@@ -203,10 +204,11 @@
   <!-- Web Design Header Begins -->
   <div class="container-fluid img-responsive" id="web-design">
     <h1 class="text-center text-uppercase header-text">Web Design</h1>
+    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#web-collapse">Click to Expand Section</button>
   </div>
   <!-- Web Design Header Ends -->
 
-  <div class="container">
+  <div class="container collapse" id="web-collapse">
     <div class="row web-content">
       <div class="col-xs-12 col-sm-4">
         <a href="https://oscar-burgos.github.io/final-project/" class="thumbnail center-block img-responsive">
@@ -239,60 +241,63 @@
   <!-- Phogography Header Begins -->
   <div class="container-fluid img-responsive" id="photography">
     <h1 class="text-center text-uppercase header-text">Photography</h1>
+    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#photo-collapse">Click to Expand Section</button>
   </div>
   <!-- Photography Header Ends -->
 
-  <!-- Carousel Begins -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	  </ol>
+  <div class="container-fluid img-responsive collapse" id="photo-collapse">
+    <!-- Carousel Begins -->
+  	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+  	  <ol class="carousel-indicators">
+  	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  	  </ol>
 
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
-	    <div class="item active" id="main"> <!-- First Slide -->
-        <div class="carousel-caption">
-	        <h2>Explore All my Photos</h2>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
-          <a href="https://www.flickr.com/gp/150460336@N03/zL1R1V" target="_blank">
-  					<button type="button" class="btn btn-warning btn-lg">Explore Photos</button>
-          </a>
-	      </div>
-      </div>
-	    <div class="item" id="soldiers"> <!-- Second Slide -->
-	      <div class="carousel-caption">
-	        <h2>Plastic War</h2>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
-          <a href="https://flic.kr/s/aHsm2M2Tvm" target="_blank">
-					  <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
-          </a>
-	      </div>
-	    </div>
-			<div class="item" id="nature"> <!-- Third Slide -->
-	      <div class="carousel-caption text-shadow">
-	        <h2>Nature</h2>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
-          <a href="https://flic.kr/s/aHsm37wA82" target="_blank">
-					  <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
-          </a>
-	      </div>
-	    </div>
-	  </div>
+  	  <!-- Wrapper for slides -->
+  	  <div class="carousel-inner" role="listbox">
+  	    <div class="item active" id="main"> <!-- First Slide -->
+          <div class="carousel-caption">
+  	        <h2>Explore All my Photos</h2>
+  	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
+            <a href="https://www.flickr.com/gp/150460336@N03/zL1R1V" target="_blank">
+    					<button type="button" class="btn btn-warning btn-lg">Explore Photos</button>
+            </a>
+  	      </div>
+        </div>
+  	    <div class="item" id="soldiers"> <!-- Second Slide -->
+  	      <div class="carousel-caption">
+  	        <h2>Plastic War</h2>
+  	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
+            <a href="https://flic.kr/s/aHsm2M2Tvm" target="_blank">
+  					  <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+            </a>
+  	      </div>
+  	    </div>
+  			<div class="item" id="nature"> <!-- Third Slide -->
+  	      <div class="carousel-caption text-shadow">
+  	        <h2>Nature</h2>
+  	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nihil facilis reiciendis, mollitia iusto laudantium ratione suscipit quaerat ad ullam doloribus consectetur impedit quis.</p>
+            <a href="https://flic.kr/s/aHsm37wA82" target="_blank">
+  					  <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+            </a>
+  	      </div>
+  	    </div>
+  	  </div>
 
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
-	</div>
-	<!-- Carousel Ends -->
+  	  <!-- Controls -->
+  	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  	    <span class="sr-only">Previous</span>
+  	  </a>
+  	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  	    <span class="sr-only">Next</span>
+  	  </a>
+  	</div>
+  	<!-- Carousel Ends -->
+  </div>
 
   <!-- PHOTGRAPHY SECTION ENDS -->
 
@@ -301,9 +306,10 @@
   <!-- Contact Header Begins -->
   <div class="container-fluid img-responsive" id="contact">
     <h1 class="text-center text-uppercase header-text">Contact</h1>
+    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#contact-collapse">Click to Expand Section</button>
   </div>
   <!-- Contact Header Ends -->
-  <div class="container-fluid bio-bkgd">
+  <div class="container-fluid bio-bkgd collapse" id="contact-collapse">
     <div class="row">
       <div class="col-sm-6">
         <div class="row">
