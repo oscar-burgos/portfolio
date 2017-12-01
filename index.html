@@ -72,12 +72,12 @@
   <!-- Graphic Design Header Begins -->
   <div class="container-fluid img-responsive" id="graphic-design">
     <h1 class="text-center text-uppercase header-text">Graphic Design</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#gd-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#gd-collapse">Click to Expand Section</button>
   </div>
   <!-- Graphic Design Header Ends -->
 
   <!-- Content Grid Begins -->
-  <div class="container collapse" id="gd-collapse">
+  <div class="container collapse showHide" id="gd-collapse">
     <div class="row content">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <a href="img/gd/prius.jpg" class="thumbnail center-block img-responsive">
@@ -199,11 +199,11 @@
   <!-- Web Design Header Begins -->
   <div class="container-fluid img-responsive" id="web-design">
     <h1 class="text-center text-uppercase header-text">Web Design</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#web-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#web-collapse">Click to Expand Section</button>
   </div>
   <!-- Web Design Header Ends -->
 
-  <div class="container collapse" id="web-collapse">
+  <div class="container collapse showHide" id="web-collapse">
     <div class="row web-content">
       <div class="col-xs-12 col-sm-4">
         <a href="https://oscar-burgos.github.io/final-project/" class="thumbnail center-block img-responsive">
@@ -236,11 +236,11 @@
   <!-- Phogography Header Begins -->
   <div class="container-fluid img-responsive" id="photography">
     <h1 class="text-center text-uppercase header-text">Photography</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#photo-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#photo-collapse">Click to Expand Section</button>
   </div>
   <!-- Photography Header Ends -->
 
-  <div class="container-fluid img-responsive collapse" id="photo-collapse">
+  <div class="container-fluid img-responsive collapse showHide" id="photo-collapse">
     <!-- Carousel Begins -->
   	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -310,8 +310,8 @@
         <div class="row">
           <div class="col-sm-3 col-sm-offset-2"> <!-- Bio Section Begins -->
             <a href="#" class="silohuette-animation thumbnail center-block img-responsive">
-              <img class="profile img-responsive" src="img/profile.jpg" alt="corvette">
-              <img class="silohuette img-responsive" src="img/silohuette.jpg" alt="corvette">
+              <!-- <img class="profile img-responsive" src="img/profile.jpg" alt="corvette"> -->
+              <img class="silohuette img-responsive hidden-sm hidden-md hidden-lg" src="img/silohuette.jpg" alt="corvette">
             </a>
           </div>
           <div class="col-sm-7 bio">
@@ -358,5 +358,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

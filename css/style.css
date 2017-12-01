@@ -107,6 +107,9 @@ a:hover .col-sm-4 {
   border-radius: 15px;
 }
 
+/* Button */
+
+
 /* Hero Section */
 
 #graphic-design {
@@ -131,8 +134,8 @@ a:hover .col-sm-4 {
 /* Content Grid Section */
 
 .thumbnail {
-  width: 228px;
-  height: 331px;
+  width: 250px;
+  height: 350px;
   margin-top: 50px;
   color: #fff;
   padding: 0px;
@@ -162,8 +165,8 @@ p {
 }
 
 .description {
-    width: 228px;
-    height: 331px;
+    width: 250px;
+    height: 350px;
     position: absolute;
     color: #fff;
     display: none;
@@ -481,11 +484,11 @@ a:hover .profile {
   animation-direction: normal;
 }
 
-a:hover .silohuette {
+/*a:hover .silohuette {
   transform: rotateY(90deg);
   animation: silohuette .5s 1;
   animation-direction: forwards;
-}
+}*/
 
 a:hover .card-name {
   display: block;
