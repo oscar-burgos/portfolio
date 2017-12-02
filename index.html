@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Oscar Burgos Porfolio</title>
-  <link rel="icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -46,24 +46,18 @@
     <img src="img/logo.png" alt="logo" class="color-logo img-responsive center-block">
     <div class="container">
       <div class="row icons">
-        <a href="#graphic-design">
-          <div class="col-sm-4">
-            <img src="img/pen-icon.png" alt="" class="pen-icon img-responsive center-block hidden-xs">
-            <h1 class="text-center text-uppercase white-text">Graphic Design</h1>
-          </div>
-        </a>
-        <a href="#web-design">
-          <div class="col-sm-4">
-            <img src="img/web-icon.png" alt="" class="web-icon img-responsive center-block hidden-xs">
-            <h1 class="text-center text-uppercase white-text">Web Design</h1>
-          </div>
-        </a>
-        <a href="#photography">
-          <div class="col-sm-4">
-            <img src="img/camera-icon.png" alt="" class="camera-icon img-responsive center-block hidden-xs">
-            <h1 class="text-center text-uppercase white-text">Photography</h1>
-          </div>
-        </a>
+        <div class="col-sm-4">
+          <img src="img/pen-icon.png" alt="" class="pen-icon img-responsive center-block hidden-xs">
+          <h1 class="text-center text-uppercase white-text">Graphic Design</h1>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/web-icon.png" alt="" class="web-icon img-responsive center-block hidden-xs">
+          <h1 class="text-center text-uppercase white-text">Web Design</h1>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/camera-icon.png" alt="" class="camera-icon img-responsive center-block hidden-xs">
+          <h1 class="text-center text-uppercase white-text">Photography</h1>
+        </div>
       </div>
     </div>
     <div class="hero-text">
@@ -78,12 +72,12 @@
   <!-- Graphic Design Header Begins -->
   <div class="container-fluid img-responsive" id="graphic-design">
     <h1 class="text-center text-uppercase header-text">Graphic Design</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#gd-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#gd-collapse">Click to Expand Section</button>
   </div>
   <!-- Graphic Design Header Ends -->
 
   <!-- Content Grid Begins -->
-  <div class="container collapse" id="gd-collapse">
+  <div class="container collapse showHide" id="gd-collapse">
     <div class="row content">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <a href="img/gd/prius.jpg" class="thumbnail center-block img-responsive">
@@ -205,31 +199,55 @@
   <!-- Web Design Header Begins -->
   <div class="container-fluid img-responsive" id="web-design">
     <h1 class="text-center text-uppercase header-text">Web Design</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#web-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#web-collapse">Click to Expand Section</button>
   </div>
   <!-- Web Design Header Ends -->
 
-  <div class="container collapse" id="web-collapse">
+  <div class="container collapse showHide" id="web-collapse">
     <div class="row web-content">
-      <div class="col-xs-12 col-sm-4">
-        <a href="https://oscar-burgos.github.io/final-project/" class="thumbnail center-block img-responsive">
-          <img class="color-card" src="img/jl-card.jpg" alt="corvette">
-          <img class="black-card" src="img/jl-card.jpg" alt="corvette">
-          <h4 class="jl-name card-name white-text text-center">Justice League</h4>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://oscar-burgos.github.io/final-project/" target="_blank" class="thumbnail center-block">
+          <div class="description box-shadow">
+            <h4>Luchador Hot Sauce Branding</h4>
+            <p>Package design concept for Luchador Hot Sauce.</p>
+          </div>
+          <img class="preview box-shadow" src="img/web/jl.jpg" alt="justice league">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <a href="https://geekwiseb2.github.io/petstore-2-oscar-burgos/" target="_blank" class="thumbnail center-block img-responsive">
-          <img class="color-card" src="img/petstore-card.jpg" alt="corvette">
-          <img class="black-card" src="img/petstore-card.jpg" alt="corvette">
-          <h4 class="petstore-name card-name white-text text-center">Petstore</h4>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://geekwiseb2.github.io/petstore-2-oscar-burgos/" target="_blank" class="thumbnail center-block">
+          <div class="description box-shadow">
+            <h4>Luchador Hot Sauce Branding</h4>
+            <p>Package design concept for Luchador Hot Sauce.</p>
+          </div>
+          <img class="preview box-shadow" src="img/web/petstore.jpg" alt="petstore">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <a href="https://geekwiseb2.github.io/restaurante-june-17-oscar-burgos/" target="_blank" class="thumbnail center-block img-responsive">
-          <img class="color-card" src="img/restaurante-card.jpg" alt="corvette">
-          <img class="black-card" src="img/restaurante-card.jpg" alt="corvette">
-          <h4 class="restaurante-name card-name white-text text-center">Restaurante</h4>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://geekwiseb2.github.io/restaurante-june-17-oscar-burgos/" target="_blank" class="thumbnail center-block">
+          <div class="description box-shadow">
+            <h4>Luchador Hot Sauce Branding</h4>
+            <p>Package design concept for Luchador Hot Sauce.</p>
+          </div>
+          <img class="preview box-shadow" src="img/web/restaurante.jpg" alt="restaurante">
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://oscar-burgos.github.io/weather_js1/" target="_blank" class="thumbnail center-block">
+          <div class="description box-shadow">
+            <h4>Luchador Hot Sauce Branding</h4>
+            <p>Package design concept for Luchador Hot Sauce.</p>
+          </div>
+          <img class="preview box-shadow" src="img/web/weather.jpg" alt="weather">
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://oscar-burgos.github.io/udemy1/" target="_blank" class="thumbnail center-block">
+          <div class="description box-shadow">
+            <h4>Luchador Hot Sauce Branding</h4>
+            <p>Package design concept for Luchador Hot Sauce.</p>
+          </div>
+          <img class="preview box-shadow" src="img/web/dice.jpg" alt="dice">
         </a>
       </div>
     </div>
@@ -242,11 +260,11 @@
   <!-- Phogography Header Begins -->
   <div class="container-fluid img-responsive" id="photography">
     <h1 class="text-center text-uppercase header-text">Photography</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#photo-collapse">Click to Expand Section</button>
+    <button type="button" class="btn btn-info center-block hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#photo-collapse">Click to Expand Section</button>
   </div>
   <!-- Photography Header Ends -->
 
-  <div class="container-fluid img-responsive collapse" id="photo-collapse">
+  <div class="container-fluid img-responsive collapse showHide" id="photo-collapse">
     <!-- Carousel Begins -->
   	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -307,17 +325,17 @@
   <!-- Contact Header Begins -->
   <div class="container-fluid img-responsive" id="contact">
     <h1 class="text-center text-uppercase header-text">Contact</h1>
-    <button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#contact-collapse">Click to Expand Section</button>
+    <!--<button type="button" class="btn btn-info center-block" data-toggle="collapse" data-target="#contact-collapse">Click to Expand Section</button>-->
   </div>
   <!-- Contact Header Ends -->
-  <div class="container-fluid bio-bkgd collapse" id="contact-collapse">
+  <div class="container-fluid bio-bkgd collapse show" id="contact-collapse">
     <div class="row">
       <div class="col-sm-6">
         <div class="row">
           <div class="col-sm-3 col-sm-offset-2"> <!-- Bio Section Begins -->
             <a href="#" class="silohuette-animation thumbnail center-block img-responsive">
-              <img class="profile img-responsive" src="img/profile.jpg" alt="corvette">
-              <img class="silohuette img-responsive" src="img/silohuette.jpg" alt="corvette">
+              <!-- <img class="profile img-responsive" src="img/profile.jpg" alt="corvette"> -->
+              <img class="silohuette img-responsive hidden-sm hidden-md hidden-lg" src="img/silohuette.jpg" alt="corvette">
             </a>
           </div>
           <div class="col-sm-7 bio">
@@ -364,5 +382,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
