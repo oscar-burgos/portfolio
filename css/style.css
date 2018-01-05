@@ -1,5 +1,40 @@
 /* gray hex color #929497 */
 
+.in {
+  margin-bottom: 75px;
+}
+
+.testlink {
+  display: block;
+  height: 100px;
+}
+
+.testlink>i {
+  background-color: #ff9999;
+  text-align: center;
+}
+
+.fa-chevron-circle-up {
+  height: 70px;
+  color: #ff0088;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.fa-chevron-circle-up:hover {
+  height: 100px;
+  color: #3d7ed0;
+  font-size: 60px;
+  text-align: center;
+}
+
+.testtext {
+  display: block;
+  color: #000;
+  text-align: center;
+}
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,900|Maven+Pro:700|Roboto+Condensed:700');
 
