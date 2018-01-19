@@ -255,7 +255,7 @@ a:hover .preview {
 }
 
 .modal-body>img {
-  max-height: calc(100vh - 152px);
+  max-height: calc(100vh - 153px);
 }
 
 .rules {
