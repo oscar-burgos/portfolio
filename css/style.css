@@ -117,12 +117,12 @@ a:hover .col-sm-4 {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 300px;
+  height: 350px;
 }
 
 @media only screen and (max-width : 768px) {
     #graphic-design {
-      height: 300px;
+      height: 350px;
       background: linear-gradient(to bottom right, #3364c7, #5e93d9, #5fb3df);
     }
 }
@@ -133,7 +133,7 @@ a:hover .col-sm-4 {
 
 /* Content Grid Section */
 
-.thumbnail {
+.gd-thumbnail {
   width: 250px;
   height: 350px;
   margin-top: 50px;
@@ -142,7 +142,7 @@ a:hover .col-sm-4 {
   border: none;
 }
 
-.thumbnail img {
+.gd-thumbnail img {
   border-radius: 5px;
   /*border: 2px solid #7bb9e2;
   box-shadow: 4px 4px #7bb9e2;*/
@@ -272,9 +272,20 @@ a:hover .preview {
   cursor: pointer;
 }
 
+
+/* Decativate modal links in mobile version */
 @media only screen and (max-width: 768px) {
-  .thumbnail {
+  .gd-thumbnail {
     pointer-events: none;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+  }
+  .gd-thumbnail img{
+    width: 300px
   }
 }
 
@@ -303,89 +314,19 @@ a:hover .preview {
   height: 475px;
 }
 
-.black-card {
-  filter: grayscale(100%);
+.web-thumbnail {
   width: 250px;
   height: 350px;
+  margin-top: 50px;
+  color: #fff;
+  padding: 0px;
+  border: none;
 }
 
-.color-card {
-    width: 250px;
-    height: 350px;
-    position: absolute;
-    color: #fff;
-    display: none;
-    border-radius: 5px;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:hover .color-card {
-  display: block;
-  background-color: #3d7ed0;
-  transform: rotateY(90deg);
-  animation: color-card .5s forwards;
-  animation-direction: normal;
-}
-
-a:hover .black-card {
-  transform: rotateY(90deg);
-  animation: black-card .5s 1;
-  animation-direction: forwards;
-}
-
-.card-name {
-  display: none;
-  text-decoration: none;
-}
-
-.petstore-name {
-  background: linear-gradient(to bottom right, #f5854d, #f06ca7);
-}
-
-.restaurante-name {
-  background-color: #f8512f;
-}
-
-.jl-name {
-  background: linear-gradient(to bottom, #797300, #404041);
-}
-
-a:hover .card-name {
-  display: block;
-  text-decoration: none;
-  transform: rotateY(90deg);
-  animation: card-name .5s forwards;
-  animation-direction: normal;
-}
-
-@keyframes black-card {
-  0% {
-    transform: rotateY(0);
-  }
-  50% {
-    transform: rotateY(90deg);
-  }
-}
-
-@keyframes color-card {
-  50% {
-    transform: rotateY(90deg);
-  }
-  100% {
-    transform: rotateY(0);
-  }
-}
-
-@keyframes card-name {
-  50% {
-    transform: rotateY(90deg);
-  }
-  100% {
-    transform: rotateY(0);
-  }
+.web-thumbnail img {
+  border-radius: 5px;
+  /*border: 2px solid #7bb9e2;
+  box-shadow: 4px 4px #7bb9e2;*/
 }
 
 /* Photography */
@@ -453,19 +394,31 @@ a:hover .card-name {
   margin-bottom: 75px;
 }
 
-.testlink {
+.backToTopBtn {
   display: block;
   height: 100px;
 }
 
-.testlink>i {
+.backToTopBtn>i {
   background-color: #ff9999;
   text-align: center;
 }
 
+#back-to-gd:hover {
+  color: #3364c7;
+}
+
+#back-to-web:hover {
+  color: #5f74ab;
+}
+
+#back-to-photo:hover {
+  color: #b7436a;
+}
+
 .fa-chevron-circle-up {
   height: 70px;
-  color: #ff0088;
+  color: #999;
   font-size: 50px;
   text-align: center;
   display: block;
@@ -473,17 +426,9 @@ a:hover .card-name {
 
 .fa-chevron-circle-up:hover {
   height: 100px;
-  color: #3d7ed0;
   font-size: 60px;
   text-align: center;
 }
-
-.testtext {
-  display: block;
-  color: #000;
-  text-align: center;
-}
-
 
 /* Bio Section */
 
