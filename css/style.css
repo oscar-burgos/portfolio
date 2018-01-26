@@ -61,7 +61,7 @@
 
 @media only screen and (max-width : 768px) {
     .hero {
-      height: 1080px;
+      height: 600px;
       background: linear-gradient(to bottom right, #268ba7, #15b2ab, #8dd3a7);
     }
 }
