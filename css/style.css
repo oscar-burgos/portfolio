@@ -403,12 +403,23 @@ a:hover .preview {
   text-align: center;
 }
 
+#back-to-gd {
+  color: #5fb3df;
+}
 #back-to-gd:hover {
   color: #3364c7;
 }
 
+#back-to-web {
+  color: #a274a3;
+}
+
 #back-to-web:hover {
   color: #5f74ab;
+}
+
+#back-to-photo {
+  color: #ee9761;
 }
 
 #back-to-photo:hover {
