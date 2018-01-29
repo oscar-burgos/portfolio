@@ -614,6 +614,8 @@ a:hover .card-name {
 .footer {
   background-color:  #e1a223;
   height: 50px;
+  text-align: center;
+  padding-top: 18px;
 }
 
 .border {
@@ -623,9 +625,18 @@ a:hover .card-name {
 .social-media {
   color: #bfc0c1;
   text-decoration: none;
-  float: left;
+}
+
+.social-media>p {
+  display: inline;
 }
 
 .copyright {
-  float: right;
+  text-align: center;
+  padding: 0px;
+}
+
+.footer2 {
+  background-color:  #e1a223;
+  height: 25px;
 }
